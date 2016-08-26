@@ -5,4 +5,4 @@ source "https://rubygems.org"
 gem "twitter"
 gem "dotenv"
 
-ruby '2.2.4'
+ruby '2.2.2'
