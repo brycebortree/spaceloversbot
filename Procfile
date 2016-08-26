@@ -1,1 +1,1 @@
-web: bundle exec ruby bot.rb -p $PORT
+worker: ruby bot.rb
