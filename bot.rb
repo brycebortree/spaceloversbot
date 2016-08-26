@@ -15,7 +15,7 @@ class Bot
   end
 
   def search
-    first_res = twit.search("I love space -my - marijuana -5sos I love moon OR 'the moon' -to -the -back I love stars OR stargazing -soulmate -prince -ariana -5sos -dylan -movie -tv -celebrity -wars -stripes -sexy -sexist -porn -trek -crush -review -amazon -all -show -fault")
+    first_res = twit.search("I love space OR stars OR star OR the moon -my - marijuana -5sos -to -the -back -soulmate -prince -ariana -5sos -dylan -movie -tv -celebrity -wars -stripes -sexy -sexist -porn -trek -crush -review -amazon -all -show -fault")
 
     @search_res = first_res
   end
