@@ -15,9 +15,11 @@ class Bot
   end
 
   def search
-    first_res = twit.search("I love space -my - marijuana -5sos -to -the -back -soulmate -prince -ariana -5sos -dylan -movie -tv -celebrity -wars -stripes -sexy -sexist -porn -trek -crush -review -amazon -all -show -fault").take(10)
+    first_res = twit.search("\"I love space\" -parents -dad -wars -stuff -#freecodefriday -mountain -some -safe").take(10)
 
-    @search_res = first_res
+    second_res = twit.search("\"I love the stars\" -trek -to -the -moon -\"to the moon\" -wars -stuff -#freecodefriday -mountain -some -safe").take(10)
+
+    @search_res = first_res + second_res
   end
 
   def retweet
