@@ -15,7 +15,7 @@ class Bot
   end
 
   def search
-    first_res = twit.search("\"I love space\" -parents -dad -wars -stuff -#freecodefriday -mountain -some -safe -jam").take(5)
+    first_res = twit.search("\"I love space\" -parents -dad -wars -stuff -#freecodefriday -mountain -some -safe -jam -bun").take(5)
 
     second_res = twit.search("\"I love the stars\" -trek -to -the -moon -\"to the moon\" -wars -stuff -#freecodefriday -mountain -some -safe").take(5)
 
