@@ -15,11 +15,9 @@ class Bot
   end
 
   def search
-    first_res = twit.search("\"I love space\" -parents -dad -wars -stuff -#freecodefriday -mountain -some -safe -jam -bun").take(5)
-
-    second_res = twit.search("\"I love the stars\" -trek -to -the -moon -\"to the moon\" -wars -stuff -#freecodefriday -mountain -some -safe").take(5)
-
-    @search_res = first_res + second_res
+    first_res = twit.search("\"I love space\" -parents -dad -wars -stuff -#freecodefriday -mountain -some -safe -jam -bun -buns").take(3)
+    
+    @search_res = first_res
   end
 
   def retweet
@@ -37,5 +35,3 @@ class Bot
 end
 
 Bot.new.retweet
-
-
