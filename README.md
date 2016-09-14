@@ -38,5 +38,5 @@ This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md
 
 ## Acknowledgments
 * This bot was built using [LoraineKV](https://github.com/lorainekv)'s [CoinForTechConf](https://github.com/lorainekv/coin-for-tech-conf ) as sample code
-* Profile image and banner image for Twitter using [Unsplash]](https://unsplash.com) images
+* Profile image and banner image for Twitter using [Unsplash](https://unsplash.com) images
 
