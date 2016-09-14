@@ -1,3 +1,5 @@
+![Space Lovers Bot in action](./SpaceLoversBot.jpg?raw=true "Space Lovers Bot in action")
+
 # SpaceLoversBot
 
 A bot that scrapes tweets for the phrase "I love space" and aggregates a curated list of Twitters most excited and sometimes most filthy space lovers. 
