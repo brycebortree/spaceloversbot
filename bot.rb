@@ -16,7 +16,7 @@ class Bot
 
   def search
     #Change search params below
-    first_res = twit.search("\"I love space\" -parents -dad -wars -stuff -#freecodefriday -mountain -some -safe -jam -bun -buns -dandy").take(3)
+    first_res = twit.search("\"I love space\" -parents -dad -wars -stuff -#freecodefriday -mountain -some -safe -jam -bun -buns -dandy -passengers").take(3)
     
     @search_res = first_res
   end
